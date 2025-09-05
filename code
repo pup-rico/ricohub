@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name - Portfolio & Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Hi, I'm Your Name</h2>
+    <p>I help people with [your services here].</p>
+    <a href="#portfolio" class="btn">View My Work</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Write a short bio here. Mention your background, experience, and what makes you great at what you do.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>My Work</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Project One</h3>
+        <p>Description of what you built.</p>
+      </div>
+      <div class="project">
+        <h3>Project Two</h3>
+        <p>Description of another project.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Service 1 - Short description</li>
+      <li>Service 2 - Short description</li>
+      <li>Service 3 - Short description</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email me at: <a href="mailto:your@email.com">your@email.com</a></p>
+    <p>Or find me on social media:</p>
+    <ul class="social">
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">Twitter</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5em;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+#hero {
+  background: #0077cc;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.btn {
+  background: #fff;
+  color: #0077cc;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.project {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ul.social {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin-top: 40px;
+}
+
+// Optional JS for future interactivity
+console.log("Site loaded!");
