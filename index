@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name - Portfolio & Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Hi, I'm Your Name</h2>
+    <p>I help people with [your services here].</p>
+    <a href="#portfolio" class="btn">View My Work</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Write a short bio here. Mention your background, experience, and what makes you great at what you do.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>My Work</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Project One</h3>
+        <p>Description of what you built.</p>
+      </div>
+      <div class="project">
+        <h3>Project Two</h3>
+        <p>Description of another project.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Service 1 - Short description</li>
+      <li>Service 2 - Short description</li>
+      <li>Service 3 - Short description</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email me at: <a href="mailto:your@email.com">your@email.com</a></p>
+    <p>Or find me on social media:</p>
+    <ul class="social">
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">Twitter</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
